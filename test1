@@ -1,0 +1,5 @@
+if expr(Policy.Reloaded) then log values (\
+  "Reloaded Policy", POLICY.CONF.Filename, \
+  "Version", POLICY.CONF.Version)
+  
+  
